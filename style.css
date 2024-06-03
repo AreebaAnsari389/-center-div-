@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent-div{
+    width: 100vw;
+    height: 100vh;
+    background: #3c90c0;
+    position: relative;
+}
+
+.child-div{
+    width: 60vw;
+    height: 60vh;
+    background: #04c765;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.child-div h1{
+    text-align: center;
+    margin: 200px;
+}
